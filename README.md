@@ -1,21 +1,22 @@
 # A propos de Git-Flow
 
-    pour un merge branche au lieu de :
-   - `git checkout develop` :
+   pour un merge branche au lieu de :
 
-   - `git merge feature/header` :
+   - `git checkout develop`
 
-   - `git branch -D feature/header` :
+   - `git merge feature/header`
+
+   - `git branch -D feature/header`
    
-    Il suffit juste d'entrer : 
+   Il suffit juste d'entrer : 
 
-   - `git flow feature finish header` :
+   - `git flow feature finish header` : il fait le merge automatiquement dans la branche develop
 
 ## Commande de base
 
 **Setup & init du dossier :**
 
-   - `git flow init` :
+   - `git flow init` : Initialise 
 
 **Branche**
 
